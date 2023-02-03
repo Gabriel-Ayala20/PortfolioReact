@@ -8,13 +8,13 @@ import javascript from './icons-tech/javascript.png'
 import mongodb from './icons-tech/mongodb.png'
 import nodejs from './icons-tech/nodejs.png'
 import reactjs from './icons-tech/reactjs.png'
-
-const imagensPerfil = {
+ 
+export const imagensPerfil = {
     "logo": logo,
     "perfil": perfil, 
 }
 
-const tecnologias ={
+ const tecnologias ={
     "css": css, 
     "github": github,
     "bootstrap": bootstrap,
@@ -25,7 +25,9 @@ const tecnologias ={
     "reactjs": reactjs
 }
 
-export default {
+const images ={
     imagensPerfil,
     tecnologias
-};
+    
+}
+export default images;
