@@ -1,0 +1,78 @@
+.contacto h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.conten-general-contact{
+  
+    height: 110vh; 
+   
+}
+.formulario-contact{
+display: flex;
+justify-content: center;
+}
+
+.content-form{
+   
+    width:600px ;
+    height: 350px;
+
+}
+
+
+
+.form-contact{
+    display: flex;
+    flex-direction:column;
+ 
+}
+
+
+
+.form-contact input {
+    margin-bottom:0.5rem;
+    border-radius: 10px;
+}
+.form-contact button{
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.form-contact textarea{
+    border-radius: 10px;
+    height: 100px;
+    resize: none;
+}
+
+@media (max-width:320px){
+    .content-form {
+
+        margin-bottom: 1rem;
+        padding: 10px;
+
+
+    }
+    .content-form input{
+        border-radius: 5px;
+    }
+
+    textarea {
+        height: 150px;
+        margin-bottom: 0.5rem;
+        resize: none;
+        border-radius: 10px;
+
+    }
+
+    .form-contact {
+
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-contact button{
+        border-radius: 10px;
+    }
+}

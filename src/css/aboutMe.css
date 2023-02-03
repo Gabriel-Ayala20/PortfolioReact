@@ -1,0 +1,336 @@
+  .textos-home{
+    max-width: 1100px;
+    height: 100vh;
+    display: flex;
+    margin: auto;    
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textos-home h1 { 
+    color: rgb(255, 255, 255) ;
+    font-family: 'Nunito', sans-serif;
+    cursor: context-menu;
+    font-size: 55px;
+  }
+  .textos-home span{
+    text-transform: uppercase;
+  }
+  .textos-home h4{
+    color: rgb(255, 255, 255) ;
+    font-family: 'Nunito', sans-serif;
+  }
+.span-nombre{
+    
+    -webkit-transition: color 2s;
+    -moz-transition:    color 2s;
+    -ms-transition:     color 2s;
+    -o-transition:      color 2s;
+    transition:         color 2s;
+}
+
+ .span-nombre:hover{
+    color: rgb(5, 131, 250);
+    transition: all 2s;
+
+ }
+
+  .title-index p{
+    text-align: center;
+  }
+  
+#about-me{
+    max-width: 1700px; 
+    height: 110vh;
+    background-color: rgb(228, 228, 228);
+}
+#about-me h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.contAboutMe{
+  
+    margin: auto;
+    padding: 150px 15px;
+    display: flex;
+  }
+
+.about-me h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+.about-me p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+}
+.perfil{
+    border-radius: 10%;
+    width:300px;
+    margin-right: 80px;
+}
+.descargar-cv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.descargar-cv i{
+font-size: 40px;
+}
+.descargar-cv a{ 
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.icon-redes i {
+    font-size: 80px;
+}
+
+.icons-stack {
+     display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 1rem;
+}
+
+.icons-stack img {
+    display: flex;
+    justify-self: center;
+    height: 100%;
+    width: 20%;
+}
+
+.contacto-redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:1rem;
+    font-size: 80px;
+}
+
+.fa-github{
+    color:rgb(148, 148, 148);
+}
+.fa-linkedin{
+    color: rgb(21, 56, 255);
+}
+
+.habilidades h2, h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;  
+   
+}
+.habilidades h3{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #504f4f;
+}
+.habilidades{
+  
+    max-width: 1700px; 
+    height: 110vh;
+}
+.habilidades-tecnicas{
+    margin-bottom: 5rem;
+}
+.soft-skill{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 1rem;  
+}
+.soft-skill h4{
+    color: rgb(0, 0, 0) ;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    display: flex;
+    justify-self: center;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+.soft-skill h4:hover{
+    color: rgb(0, 129, 250);
+    transition: all 1s;
+   
+}
+.card-c {
+    margin: 5px;
+}
+
+.cert-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.certificados-btn {
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin: 1rem;
+    border-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+
+
+
+.certificados-general{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase; 
+
+}
+
+.certificado-container {
+    display: none;  
+}
+
+.cert-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.certificados {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 1.5rem;
+
+}
+
+.certificados img {
+    height: auto;
+    object-fit: contain;
+    width: 100%;
+}
+
+
+
+.google-container{
+  display: none;
+}
+.container-google{
+    margin-bottom: 3rem;
+}
+.cert-google{
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+     
+}
+.google {
+   
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 1.5rem;
+}
+
+.google img {
+    height: auto;
+    object-fit: contain;
+    width: 100%;
+}
+
+
+.swipe-up {
+   
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    position:fixed;
+    top: 95%;
+    left: 98%;
+}
+.swipe-up i{
+
+    color: black;
+    font-size: 40px;
+}
+
+
+
+@media (max-width:769px) {
+    #about-me{
+        max-height: 170vh;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contAboutMe{
+        display: flex;
+        flex-direction:  column;
+       
+    }
+    .perfil-img img{
+        display: block;
+      margin: auto;
+    }
+    .about-me h2{
+        text-align: center;
+    }
+    .about-me p {
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 25px;
+        margin-left: 0;
+        padding-top: 0;
+        margin-top: 0.5rem;
+    }
+
+   
+    .icons-stack {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 5rem;
+    }
+
+    .icons-stack img {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .card-pj {
+        border-radius: 30px;
+        padding-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        height: 150px;
+        width: auto;
+        background: rgb(235, 235, 235);
+    }
+
+    .card-pj img {
+        display: block;
+        margin: auto;
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .url-dma {
+        color: rgba(22, 27, 59, 0.377);
+        text-decoration: none;
+
+    }
+    .cert-btn{
+        display: flex;
+        flex-direction: column;
+       
+    }
+   
+    .certificados  {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    
+    }
+    .google{
+        grid-template-columns: repeat(1,minmax(0,1fr)); 
+    }
+    .swipe-up{
+        right: 10%;
+    }
+} 
