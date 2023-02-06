@@ -2,7 +2,7 @@
 function Footer () {
     return (  
     <footer>
-        <div className="container">
+        <div /* className="container-fluid" */>
           <ul className="footer-list">
             <li>
             <a href="#header">Home

@@ -46,7 +46,7 @@
 }
 .contAboutMe{
  height: 100vh;
-     padding: 150px 15px;
+padding: 150px 15px;
     display: flex;
     background-color: rgb(228, 228, 228);
   }
@@ -327,8 +327,23 @@ margin: 10rem 0 10rem 0;
 } 
 
 @media (max-width:426px){
+    .contAboutMe{
+        padding: 20px 0px;
+    }
+    .about-me p{
+        font-size: 20px;
+    }
     .soft-skill{
     grid-template-columns: repeat(1,minmax(0,1fr));
     gap: 0rem;  
+    }
+    .textos-home h1{
+font-size: 45px;
+    }
+    .contacto-redes{
+        display: grid;
+        justify-content: center;
+        margin-top:0rem;
+        font-size: 100px;
     }
 }
