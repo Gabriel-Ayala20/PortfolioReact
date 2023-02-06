@@ -38,21 +38,17 @@
     text-align: center;
   }
   
-#about-me{
-    max-width: 1700px; 
-    height: 110vh;
-    background-color: rgb(228, 228, 228);
-}
+
 #about-me h2{
     font-family: 'Nunito', sans-serif;
     font-size: 35px;
     text-transform: uppercase;
 }
 .contAboutMe{
-  
-    margin: auto;
-    padding: 150px 15px;
+ height: 100vh;
+     padding: 150px 15px;
     display: flex;
+    background-color: rgb(228, 228, 228);
   }
 
 .about-me h2{
@@ -126,9 +122,7 @@ color: rgb(255, 255, 255);
     text-decoration-color: #504f4f;
 }
 .habilidades{
-  
-    max-width: 1700px; 
-    height: 110vh;
+margin: 10rem 0 10rem 0;
 }
 .habilidades-tecnicas{
     margin-bottom: 5rem;
@@ -252,9 +246,6 @@ color: rgb(255, 255, 255);
 
 
 @media (max-width:769px) {
-    #about-me{
-        max-height: 170vh;
-    }
     .about-me {
         display: flex;
         flex-direction: column;
@@ -334,3 +325,10 @@ color: rgb(255, 255, 255);
         right: 10%;
     }
 } 
+
+@media (max-width:426px){
+    .soft-skill{
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    gap: 0rem;  
+    }
+}

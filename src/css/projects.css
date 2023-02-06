@@ -1,10 +1,10 @@
 
-.project-container{
+/* .project-container{
     max-width: 1700px; 
     height: 110vh;
 background-color: rgb(228, 228, 228);
 
-}
+} */
 
 .text-proyecto h2{
     font-family: 'Nunito', sans-serif;
@@ -13,8 +13,10 @@ background-color: rgb(228, 228, 228);
     margin: 5rem 0 5rem 0;
 }
 .cards-proyectos{
-    display: flex;
-    justify-content: space-evenly;
+display: grid;
+margin: 3rem 0 3rem 0;
+justify-content:center
+
 }
 .redes{
     display: flex;
@@ -24,26 +26,14 @@ background-color: rgb(228, 228, 228);
 .redes i{
     font-size: 40px;
 }
-.cardf{
-  
-    border-color: rgb(248, 143, 15);
-    border-radius: 1rem;
-    transition: transform .2s;
+.cardf img{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
-
 .cardf h3{
   color: black  ;
   font-size: 25px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (max-width:429px) {
-    .cards-proyectos{
-        display: flex;
-        flex-direction: column;
-      
-    }
-    .cardf{
-        margin-top: 1rem;
-    }
-}

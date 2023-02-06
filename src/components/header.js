@@ -38,9 +38,7 @@ function Header () {
               <a href="#projects">Proyectos
                 </a>
               </li>
-              <li>
-                <a href="#contacto">Contacto</a>
-              </li>
+          
             </ul>
           </div>
         </nav>
